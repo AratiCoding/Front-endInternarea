@@ -22,7 +22,7 @@ function Intern() {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          `http://https://internshipbackend-teng.onrender.com/api/internship`
+          `https://internshipbackend-teng.onrender.com/api/internship`
         );
         setInternData(response.data);
         console.log(response.data);
